@@ -17,3 +17,5 @@ app.MapWebSocketManager("/ws", serviceProvider.GetService<WebsocketExampleMessag
 
 and in Program.cs define
 webBuilder.UseUrls("http://0.0.0.0:9000");
+
+Install-Package Microsoft.AspNetCore.WebSockets -Version 2.2.1
